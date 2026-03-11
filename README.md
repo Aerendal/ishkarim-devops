@@ -1,0 +1,103 @@
+# ishkarim-devops
+
+> Self-healing DevOps: rollback, OIDC, policy-as-code, rekonfiguracja, CI/CD.
+
+## Instalacja
+
+```bash
+pip install -e projects/ishkarim-devops
+```
+
+Lub lokalnie z tego repozytorium:
+
+```bash
+cd projects/ishkarim-devops
+pip install -e ".[dev]"
+```
+
+## Użycie
+
+```python
+import ishkarim_devops as m
+
+# Lista dostępnych modułów
+print(m.MODULES)
+
+# Wczytaj indeks wiedzy
+docs = m.load_knowledge_index()
+```
+
+## Obszar tematyczny
+
+Ten projekt agreguje wiedzę z **68 katalogów** obszaru `devops`:
+
+- `AST‑oparte lintowanie i testy kompletności`
+- `Aktualizacja: rekonfiguracja i automatyzacja DevOps`
+- `Architektura & przepływ - dwa front-endy nad wspólnym REST + warstwy pomocnicze`
+- `Asercje oparte na schemacie i bramki CI`
+- `Audit Layer for workflowctl Validation`
+- `Audyt spójności JSONL przed uruchomieniem pipeline’u`
+- `Automatyczne poprawki w DOCX i Markdown z Pandoc-Panflute`
+- `Autonomiczne DevOps z rollbackiem i self‑regulacją`
+- … i 60 więcej (pełna lista w [MODULES.md](MODULES.md))
+
+## Przykładowe źródła
+
+### AST‑oparte lintowanie i testy kompletności
+
+# WORK: AST‑oparte lintowanie i testy kompletności
+## 0-Metadane
+- Katalog: AST‑oparte lintowanie i testy kompletności
+- Pliki: 14 (bez placeholderów)
+- Tagi: bito-lint, AST, Pandoc, Vale, remark-lint, CI-gates, dokumentacja, SARIF, JSON-Schema, baseline, plugin-API, deterministyczność
+
+### Aktualizacja: rekonfiguracja i automatyzacja DevOps
+
+# WORK: Aktualizacja: rekonfiguracja i automatyzacja DevOps
+## 0-Metadane
+- Katalog: Aktualizacja: rekonfiguracja i automatyzacja DevOps
+- Pliki: 16 (bez placeholderów)
+- Tagi: DevOps, self-healing, IaC, GitOps, Argo CD, Flux, OpenTofu, progressive delivery, SLO, policy-as-code, supply chain, SLSA, Kubernetes
+
+### Architektura & przepływ - dwa front-endy nad wspólnym REST + warstwy pomocnicze
+
+# WORK — Architektura & przepływ: dwa front-endy nad wspólnym REST + warstwy pomocnicze
+## 0-Metadane
+- **Ścieżka:** Architektura & przepływ - dwa front-endy nad wspólnym REST + warstwy pomocnicze/
+- **Liczba plików:** 24/24
+- **Tagi:** quantum-core, rest-api, local-llm, sqlite, redis, fastapi, pyqt6, loki, vector, observability, self-healing, offline-first, python
+
+
+## Struktura projektu
+
+```
+ishkarim-devops/
+├── pyproject.toml        # installable package
+├── README.md
+├── MODULES.md            # pełny indeks 68 katalogów-źródeł
+├── src/
+│   └── ishkarim_devops/
+│       ├── __init__.py   # publiczne API
+│       ├── utils.py      # wspólne narzędzia
+│       └── *.py          # kod wyekstrahowany z WORK.md
+├── tests/
+│   ├── __init__.py
+│   └── test_devops.py
+└── docs/
+    ├── overview.md
+    └── sources.md
+```
+
+## Testy
+
+```bash
+pytest projects/ishkarim-devops/tests/ -v
+```
+
+## Źródło danych
+
+Katalogi źródłowe znajdują się w katalogu głównym repozytorium Ishkarim.
+Każdy katalog zawiera `WORK.md` (notatki badawcze) i `TAGS.md` (metadane).
+
+---
+*Wygenerowano automatycznie przez `scripts/build_projects.py`*

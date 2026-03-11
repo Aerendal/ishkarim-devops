@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/ishkarim_devops/__init__.py
+src/ishkarim_devops/ci.py
+src/ishkarim_devops/extracted.py
+src/ishkarim_devops/utils.py
+src/ishkarim_devops.egg-info/PKG-INFO
+src/ishkarim_devops.egg-info/SOURCES.txt
+src/ishkarim_devops.egg-info/dependency_links.txt
+src/ishkarim_devops.egg-info/requires.txt
+src/ishkarim_devops.egg-info/top_level.txt
+src/ishkarim_devops/snippets/__init__.py
+src/ishkarim_devops/snippets/ci.py
+src/ishkarim_devops/snippets/extracted.py
+tests/test_devops.py
