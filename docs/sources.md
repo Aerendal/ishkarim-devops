@@ -5,7 +5,7 @@
 > Łącznie unikalnych URL: **1656**
 
 
-## 📄 Artykuły naukowe (42)
+## Artykuły naukowe (42)
 
 - <https://arxiv.org/abs/2512.04368>  
   _źródło: `DevOps: Self‑Healing & IaC Highlights`, `DevOps: self‑healing & IaC findings`, `Nowe praktyki: rekonfiguracja DevOps` +3_
@@ -92,7 +92,7 @@
 - <https://www.arxiv.org/pdf/2601.22438>  
   _źródło: `New preprints on local AI  and resilience`_
 
-## 🐙 Repozytoria GitHub (251)
+## Repozytoria GitHub (251)
 
 - <https://docs.github.com/en/actions/reference/security/secure-use>  
   _źródło: `Aktualizacja: rekonfiguracja i automatyzacja DevOp`, `DevOps: self‑healing & IaC findings`, `Nowe wzorce DevOps i self‑healing` +3_
@@ -255,7 +255,7 @@
 - <https://docs.github.com/ru/actions/how-tos/deploy/configure-and-manage-deployments/create-custom-protection-rules>  
   _źródło: `Nowe wzorce: self‑healing, IaC, rollback`_
 
-## 📚 Dokumentacja (317)
+## Dokumentacja (317)
 
 - <https://openpolicyagent.org/docs/policy-testing>  
   _źródło: `Aktualizacja: rekonfiguracja i automatyzacja DevOp`, `Nowe wzorce DevOps i self‑healing`, `Proactive Linux Architecture and Policy Hooks` +2_
@@ -418,7 +418,7 @@
 - <https://developer.hashicorp.com/sentinel/docs/concepts/policy-as-code>  
   _źródło: `Nowe wzorce DevOps i self‑healing`_
 
-## 🔗 Inne zasoby (1046)
+## Inne zasoby (1046)
 
 - <https://json-schema.org/draft/2020-12/schema>  
   _źródło: `AST‑oparte lintowanie i testy kompletności`, `Asercje oparte na schemacie i bramki CI`, `Audit Layer for workflowctl Validation` +24_
@@ -581,7 +581,7 @@
 - <http://${host}>  
   _źródło: `Node-MDX - testowalne przykłady i kontrakty HTTP`_
 
-## 📁 Katalogi źródłowe
+## Katalogi źródłowe
 
 Obszar `devops` zawiera **67** katalogów:
 
